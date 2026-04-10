@@ -338,6 +338,43 @@ def institution_rank_multiplier(grad_fit: str) -> float:
     return 0.95
 
 
+def advisor_competitiveness(
+    priority: str, h_index: int, matched_works: int, grad_fit: str
+) -> str:
+    score = 0
+    if priority.startswith("A"):
+        score += 3
+    elif priority.startswith("B"):
+        score += 2
+    else:
+        score += 1
+
+    if h_index >= 60:
+        score += 3
+    elif h_index >= 35:
+        score += 2
+    elif h_index >= 20:
+        score += 1
+
+    if matched_works >= 15:
+        score += 2
+    elif matched_works >= 8:
+        score += 1
+
+    if grad_fit.startswith("Strong"):
+        score += 1
+    elif grad_fit.startswith("Lower"):
+        score -= 1
+
+    if score >= 8:
+        return "Very high"
+    if score >= 6:
+        return "High"
+    if score >= 4:
+        return "Moderate"
+    return "Selective but variable"
+
+
 def write_longlist_csv(rows: list[dict[str, str]]) -> None:
     fields = [
         "rank",
@@ -349,6 +386,7 @@ def write_longlist_csv(rows: list[dict[str, str]]) -> None:
         "us_or_non_us",
         "in_existing_us_grad_program_file",
         "grad_advisor_fit",
+        "advisor_competitiveness",
         "matched_works_count",
         "most_recent_matched_year",
         "computational_ecology_fit_tags",
@@ -380,6 +418,7 @@ def write_shortlist_csv(long_rows: list[dict[str, str]]) -> None:
         "country_code",
         "priority_bucket",
         "grad_advisor_fit",
+        "advisor_competitiveness",
         "focus_tags",
         "why_research_now",
         "first_action_for_theo",
@@ -396,6 +435,7 @@ def write_shortlist_csv(long_rows: list[dict[str, str]]) -> None:
                 "country_code": row["country_code"],
                 "priority_bucket": row["priority_bucket"],
                 "grad_advisor_fit": row["grad_advisor_fit"],
+                "advisor_competitiveness": row["advisor_competitiveness"],
                 "focus_tags": row["computational_ecology_fit_tags"],
                 "why_research_now": row["why_theo_should_research"],
                 "first_action_for_theo": "Read 2 papers + draft 3-sentence fit note + log funding clues.",
@@ -422,6 +462,7 @@ def write_shortlist_us_csv(long_rows: list[dict[str, str]]) -> None:
         "institution",
         "priority_bucket",
         "grad_advisor_fit",
+        "advisor_competitiveness",
         "focus_tags",
         "why_research_now",
         "first_action_for_theo",
@@ -437,6 +478,7 @@ def write_shortlist_us_csv(long_rows: list[dict[str, str]]) -> None:
                 "institution": row["institution"],
                 "priority_bucket": row["priority_bucket"],
                 "grad_advisor_fit": row["grad_advisor_fit"],
+                "advisor_competitiveness": row["advisor_competitiveness"],
                 "focus_tags": row["computational_ecology_fit_tags"],
                 "why_research_now": row["why_theo_should_research"],
                 "first_action_for_theo": "Read 2 papers + verify current PhD openings/funding + draft tailored email.",
@@ -570,6 +612,10 @@ def build() -> None:
         cited_by = int(meta.get("cited_by_count", 0))
         status = likely_faculty_status(works_count, h_index, agg.matched_works_count)
         fit = grad_advisor_fit(institution, country)
+        priority = priority_bucket(agg.score, agg.matched_works_count, h_index)
+        competitiveness = advisor_competitiveness(
+            priority, h_index, agg.matched_works_count, fit
+        )
         rank_score = (
             agg.score
             * institution_rank_multiplier(fit)
@@ -579,7 +625,7 @@ def build() -> None:
 
         row = {
             "rank": "0",
-            "priority_bucket": priority_bucket(agg.score, agg.matched_works_count, h_index),
+            "priority_bucket": priority,
             "faculty_name": agg.name,
             "likely_faculty_status": status,
             "institution": institution,
@@ -587,6 +633,7 @@ def build() -> None:
             "us_or_non_us": "US" if country == "US" else "Non-US",
             "in_existing_us_grad_program_file": in_us_program_list(institution, us_programs),
             "grad_advisor_fit": fit,
+            "advisor_competitiveness": competitiveness,
             "matched_works_count": str(agg.matched_works_count),
             "most_recent_matched_year": str(agg.most_recent_year),
             "computational_ecology_fit_tags": "; ".join(agg.top_tags),
