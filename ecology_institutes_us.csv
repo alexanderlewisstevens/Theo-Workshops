@@ -1,28 +1,34 @@
-institute_name,network,site_status,ecosystem_focus,latitude,longitude,homepage_url,profile_url,source_url
-Andrews Forest LTER,NSF LTER,current,Coniferous Forest,44.212000,-122.256000,https://andrewsforest.oregonstate.edu,https://lternet.edu/site/andrews-forest-lter/,https://lternet.edu/site/
-Arctic LTER,NSF LTER,current,Arctic Tundra,68.633333,-149.606667,https://arc.lternet.edu/,https://lternet.edu/site/arctic-lter/,https://lternet.edu/site/
-Beaufort Lagoon Ecosystems LTER,NSF LTER,current,Estuary,71.337900,-156.416500,http://ble.lternet.edu,https://lternet.edu/site/beaufort-lagoon-ecosystem/,https://lternet.edu/site/
-Bonanza Creek LTER,NSF LTER,current,Taiga,64.858500,-147.847000,http://www.lter.uaf.edu/,https://lternet.edu/site/bonanza-creek-lter/,https://lternet.edu/site/
-California Current Ecosystem LTER,NSF LTER,current,Marine,32.873600,-120.280000,https://ccelter.ucsd.edu/,https://lternet.edu/site/california-current-ecosystem-lter/,https://lternet.edu/site/
-Cedar Creek LTER,NSF LTER,current,Savanna/Tallgrass Prairie,45.401000,-93.201000,http://cedarcreek.umn.edu,https://lternet.edu/site/cedar-creek-ecosystem-science-reserve/,https://lternet.edu/site/
-Florida Coastal Everglades LTER,NSF LTER,current,Freshwater Marsh/Estuary,25.468200,-80.853300,https://fce.lternet.edu/,https://lternet.edu/site/florida-coastal-everglades-lter/,https://lternet.edu/site/
-Georgia Coastal Ecosystems LTER,NSF LTER,current,Salt Marsh/Estuary,31.427000,-81.371000,http://gce-lter.marsci.uga.edu/,https://lternet.edu/site/georgia-coastal-ecosystems-lter/,https://lternet.edu/site/
-Harvard Forest LTER,NSF LTER,current,Deciduous Forest,42.530000,-72.190000,http://harvardforest.fas.harvard.edu/,https://lternet.edu/site/harvard-forest-lter/,https://lternet.edu/site/
-Hubbard Brook LTER,NSF LTER,current,Deciduous Forest,43.940000,-71.751000,http://hbr.lternet.edu/,https://lternet.edu/site/hubbard-brook-lter/,https://lternet.edu/site/
-Jornada Basin LTER,NSF LTER,current,Desert,32.617900,-106.740000,http://jrn.lternet.edu/,https://lternet.edu/site/jornada-basin-lter/,https://lternet.edu/site/
-Kellogg Biological Station LTER,NSF LTER,current,Row Crop Agriculture,42.400000,-85.400000,http://lter.kbs.msu.edu/,https://lternet.edu/site/kellogg-biological-station-lter/,https://lternet.edu/site/
-Konza Prairie LTER,NSF LTER,current,Tallgrass Prairie,39.093000,-96.575000,https://lter.konza.ksu.edu/,https://lternet.edu/site/konza-prairie-lter/,https://lternet.edu/site/
-Luquillo LTER,NSF LTER,current,Tropical Rainforest,18.300000,-65.800000,https://luquillo.lter.network/,https://lternet.edu/site/luquillo-lter/,https://lternet.edu/site/
-Minneapolis-St. Paul LTER,NSF LTER,current,Urban,44.985844,-93.182944,https://mspurbanlter.umn.edu/,https://lternet.edu/site/minneapolis-st-paul-lter/,https://lternet.edu/site/
-Niwot Ridge LTER,NSF LTER,current,Alpine Tundra,40.054110,-105.589100,https://nwt.lternet.edu,https://lternet.edu/site/niwot-ridge-lter/,https://lternet.edu/site/
-North Temperate Lakes LTER,NSF LTER,current,Temperate Lake,46.012400,-89.672000,https://lter.limnology.wisc.edu/,https://lternet.edu/site/north-temperate-lakes-lter/,https://lternet.edu/site/
-Northeast U.S. Shelf LTER,NSF LTER,current,Marine,40.696700,-70.883300,https://nes-lter.whoi.edu/,https://lternet.edu/site/northeast-u-s-shelf/,https://lternet.edu/site/
-Northern Gulf of Alaska LTER,NSF LTER,current,Subarctic Marine,59.045000,-148.700000,https://nga.lternet.edu,https://lternet.edu/site/northern-gulf-alaska/,https://lternet.edu/site/
-Plum Island Ecosystems LTER,NSF LTER,current,Estuary,42.759000,-70.891000,http://pie-lter.ecosystems.mbl.edu/,https://lternet.edu/site/plum-island-ecosystems-lter/,https://lternet.edu/site/
-Santa Barbara Coastal LTER,NSF LTER,current,Semiarid Coastal and Marine,34.412500,-119.842000,http://sbc.lternet.edu,https://lternet.edu/site/santa-barbara-coastal-lter/,https://lternet.edu/site/
-Sevilleta LTER,NSF LTER,current,Desert/Grassland,34.353000,-106.882000,https://sevlter.unm.edu/,https://lternet.edu/site/sevilleta-lter/,https://lternet.edu/site/
-Virginia Coast Reserve LTER,NSF LTER,current,Barrier Island/Lagoon,37.283000,-75.913000,http://www.vcrlter.virginia.edu/,https://lternet.edu/site/virginia-coast-reserve-lter/,https://lternet.edu/site/
-Baltimore Ecosystem Study,NSF LTER,legacy,Urban Ecosystem,39.100000,-76.300000,https://baltimoreecosystemstudy.org/,https://lternet.edu/site/baltimore-ecosystem-study/,https://lternet.edu/site/
-Central Arizona - Phoenix LTER,NSF LTER,legacy,Urban Ecosystem,33.427000,-111.933000,http://caplter.asu.edu/,https://lternet.edu/site/central-arizona-phoenix-lter/,https://lternet.edu/site/
-Coweeta LTER,NSF LTER,legacy,Deciduous Forest,35.000000,-83.500000,http://coweeta.uga.edu,https://lternet.edu/site/coweeta-lter/,https://lternet.edu/site/
-Shortgrass Steppe LTER,NSF LTER,legacy,Shortgrass Steppe,40.827000,-104.724000,http://sgslter.colostate.edu/,https://lternet.edu/site/shortgrass-steppe-lter/,https://lternet.edu/site/
+institute_name,ecology_subfield_tags,network,site_status,ecosystem_focus,latitude,longitude,homepage_url,profile_url,source_url
+Andrews Forest LTER,general,NSF LTER,current,Coniferous Forest,44.212000,-122.256000,https://andrewsforest.oregonstate.edu,https://lternet.edu/site/andrews-forest-lter/,https://lternet.edu/site/
+Arctic LTER,general,NSF LTER,current,Arctic Tundra,68.633333,-149.606667,https://arc.lternet.edu/,https://lternet.edu/site/arctic-lter/,https://lternet.edu/site/
+Beaufort Lagoon Ecosystems LTER,general,NSF LTER,current,Estuary,71.337900,-156.416500,http://ble.lternet.edu,https://lternet.edu/site/beaufort-lagoon-ecosystem/,https://lternet.edu/site/
+Bonanza Creek LTER,general,NSF LTER,current,Taiga,64.858500,-147.847000,http://www.lter.uaf.edu/,https://lternet.edu/site/bonanza-creek-lter/,https://lternet.edu/site/
+California Current Ecosystem LTER,general,NSF LTER,current,Marine,32.873600,-120.280000,https://ccelter.ucsd.edu/,https://lternet.edu/site/california-current-ecosystem-lter/,https://lternet.edu/site/
+Cedar Creek LTER,general,NSF LTER,current,Savanna/Tallgrass Prairie,45.401000,-93.201000,http://cedarcreek.umn.edu,https://lternet.edu/site/cedar-creek-ecosystem-science-reserve/,https://lternet.edu/site/
+Florida Coastal Everglades LTER,general,NSF LTER,current,Freshwater Marsh/Estuary,25.468200,-80.853300,https://fce.lternet.edu/,https://lternet.edu/site/florida-coastal-everglades-lter/,https://lternet.edu/site/
+Georgia Coastal Ecosystems LTER,general,NSF LTER,current,Salt Marsh/Estuary,31.427000,-81.371000,http://gce-lter.marsci.uga.edu/,https://lternet.edu/site/georgia-coastal-ecosystems-lter/,https://lternet.edu/site/
+Harvard Forest LTER,general,NSF LTER,current,Deciduous Forest,42.530000,-72.190000,http://harvardforest.fas.harvard.edu/,https://lternet.edu/site/harvard-forest-lter/,https://lternet.edu/site/
+Hubbard Brook LTER,general,NSF LTER,current,Deciduous Forest,43.940000,-71.751000,http://hbr.lternet.edu/,https://lternet.edu/site/hubbard-brook-lter/,https://lternet.edu/site/
+Jornada Basin LTER,general,NSF LTER,current,Desert,32.617900,-106.740000,http://jrn.lternet.edu/,https://lternet.edu/site/jornada-basin-lter/,https://lternet.edu/site/
+Kellogg Biological Station LTER,general,NSF LTER,current,Row Crop Agriculture,42.400000,-85.400000,http://lter.kbs.msu.edu/,https://lternet.edu/site/kellogg-biological-station-lter/,https://lternet.edu/site/
+Konza Prairie LTER,general,NSF LTER,current,Tallgrass Prairie,39.093000,-96.575000,https://lter.konza.ksu.edu/,https://lternet.edu/site/konza-prairie-lter/,https://lternet.edu/site/
+Luquillo LTER,general,NSF LTER,current,Tropical Rainforest,18.300000,-65.800000,https://luquillo.lter.network/,https://lternet.edu/site/luquillo-lter/,https://lternet.edu/site/
+Minneapolis-St. Paul LTER,general,NSF LTER,current,Urban,44.985844,-93.182944,https://mspurbanlter.umn.edu/,https://lternet.edu/site/minneapolis-st-paul-lter/,https://lternet.edu/site/
+Niwot Ridge LTER,general,NSF LTER,current,Alpine Tundra,40.054110,-105.589100,https://nwt.lternet.edu,https://lternet.edu/site/niwot-ridge-lter/,https://lternet.edu/site/
+North Temperate Lakes LTER,general,NSF LTER,current,Temperate Lake,46.012400,-89.672000,https://lter.limnology.wisc.edu/,https://lternet.edu/site/north-temperate-lakes-lter/,https://lternet.edu/site/
+Northeast U.S. Shelf LTER,general,NSF LTER,current,Marine,40.696700,-70.883300,https://nes-lter.whoi.edu/,https://lternet.edu/site/northeast-u-s-shelf/,https://lternet.edu/site/
+Northern Gulf of Alaska LTER,general,NSF LTER,current,Subarctic Marine,59.045000,-148.700000,https://nga.lternet.edu,https://lternet.edu/site/northern-gulf-alaska/,https://lternet.edu/site/
+Plum Island Ecosystems LTER,general,NSF LTER,current,Estuary,42.759000,-70.891000,http://pie-lter.ecosystems.mbl.edu/,https://lternet.edu/site/plum-island-ecosystems-lter/,https://lternet.edu/site/
+Santa Barbara Coastal LTER,general,NSF LTER,current,Semiarid Coastal and Marine,34.412500,-119.842000,http://sbc.lternet.edu,https://lternet.edu/site/santa-barbara-coastal-lter/,https://lternet.edu/site/
+Sevilleta LTER,general,NSF LTER,current,Desert/Grassland,34.353000,-106.882000,https://sevlter.unm.edu/,https://lternet.edu/site/sevilleta-lter/,https://lternet.edu/site/
+Virginia Coast Reserve LTER,general,NSF LTER,current,Barrier Island/Lagoon,37.283000,-75.913000,http://www.vcrlter.virginia.edu/,https://lternet.edu/site/virginia-coast-reserve-lter/,https://lternet.edu/site/
+Baltimore Ecosystem Study,general,NSF LTER,legacy,Urban Ecosystem,39.100000,-76.300000,https://baltimoreecosystemstudy.org/,https://lternet.edu/site/baltimore-ecosystem-study/,https://lternet.edu/site/
+Central Arizona - Phoenix LTER,general,NSF LTER,legacy,Urban Ecosystem,33.427000,-111.933000,http://caplter.asu.edu/,https://lternet.edu/site/central-arizona-phoenix-lter/,https://lternet.edu/site/
+Coweeta LTER,general,NSF LTER,legacy,Deciduous Forest,35.000000,-83.500000,http://coweeta.uga.edu,https://lternet.edu/site/coweeta-lter/,https://lternet.edu/site/
+Shortgrass Steppe LTER,general,NSF LTER,legacy,Shortgrass Steppe,40.827000,-104.724000,http://sgslter.colostate.edu/,https://lternet.edu/site/shortgrass-steppe-lter/,https://lternet.edu/site/
+"Mathematical and Computational Ecology and Evolution | University of Tennessee, Knoxville",computational;quantitative;theoretical,University lab,n/a,"Mathematical ecology, computational ecology, and evolution",,,https://lgross.utk.edu/matheco,https://lgross.utk.edu/matheco,https://lgross.utk.edu/matheco
+National Center for Ecological Analysis and Synthesis (NCEAS),computational;quantitative,Research center,n/a,"Ecological synthesis, data-intensive ecology, modeling, and analysis",,,https://www.nceas.ucsb.edu/,https://www.nceas.ucsb.edu/,https://www.nceas.ucsb.edu/
+Quantitative Ecology Lab - North Carolina State University,quantitative;theoretical,University lab,n/a,"Ecological models, field studies, and statistical tools",,,https://quantecolab.com/,https://quantecolab.com/,https://quantecolab.com/
+Quantitative Ecology Lab | University of Washington,quantitative,University lab,n/a,"Quantitative ecology, population ecology, and ecological statistics",,,https://depts.washington.edu/sefsqel/,https://depts.washington.edu/sefsqel/,https://depts.washington.edu/sefsqel/
+QuantitativeEcology.org | Northern Arizona University,computational;quantitative;theoretical,University research group,n/a,"Mathematical, computational, technological, and statistical tools for ecology",,,https://quantitativeecology.org/,https://quantitativeecology.org/,https://quantitativeecology.org/
+Tourani Quantitative Ecology Lab | University of Montana,quantitative,University lab,n/a,"Species monitoring, ecological statistics, and population modeling",,,https://www.umt.edu/quantitative-ecology-lab/default.php,https://www.umt.edu/quantitative-ecology-lab/default.php,https://www.umt.edu/quantitative-ecology-lab/default.php
